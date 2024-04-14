@@ -10,8 +10,8 @@ from ZCodeLexer import ZCodeLexer
 from ZCodeParser import ZCodeParser
 from lexererr import *
 from ASTGeneration import ASTGeneration
-# from StaticCheck import StaticChecker
-# from StaticError import *
+from StaticCheck import StaticChecker
+from StaticError import *
 # from CodeGenerator import CodeGenerator
 import subprocess
 
@@ -148,6 +148,10 @@ class TestChecker:
         TestChecker.check(SOL_DIR, asttree, num)
         dest = open(os.path.join(SOL_DIR, str(num) + ".txt"), "r")
         line = dest.read()
+        # if "Redeclared" in expect or expect == "" or "Redeclared" in line:
+        #     print("line = ",line, "expect = ", expect, "at test", num, "result = ", line == expect)
+        if "Undeclared" in expect or "Undeclared" in line:
+            print("line = ",line, "expect = ", expect, "at test", num, "result = ", line == expect)
         return line == expect
 
     @staticmethod
@@ -156,7 +160,9 @@ class TestChecker:
         checker = StaticChecker(asttree)
         try:
             res = checker.check()
-            dest.write(str(list(res)))
+            # print("res =                 ",res)
+            # dest.write(str(list(res)))
+            dest.write("")
         except StaticError as e:
             dest.write(str(e))
         finally:

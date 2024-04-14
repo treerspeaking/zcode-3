@@ -69,8 +69,8 @@ def main(argv):
         elif argv[1] == 'ASTGenSuite':
             from ASTGenSuite import ASTGenSuite
             getAndTest(ASTGenSuite)
-        elif argv[1] == 'CheckerSuite':
-            from CheckerSuite import CheckerSuite
+        elif argv[1] == 'CheckSuite':
+            from CheckSuite import CheckerSuite
             getAndTest(CheckerSuite)
         elif argv[1] == 'CodeGenSuite':
             from CodeGenSuite import CheckCodeGenSuite
@@ -93,8 +93,8 @@ def test(suite):
     runner = unittest.TextTestRunner(stream=stream)
     result = runner.run(suite)
     print('Tests run ', result.testsRun)
-    print('Errors ', result.errors)
-    pprint(result.failures)
+    # print('Errors ', result.errors)
+    # pprint(result.failures)
     stream.seek(0)
     print('Test output\n', stream.read())
 
@@ -104,7 +104,7 @@ def printUsage():
     print("python3 run.py test LexerSuite")
     print("python3 run.py test ParserSuite")
     print("python3 run.py test ASTGenSuite")
-    print("python3 run.py test CheckerSuite")
+    print("python3 run.py test CheckSuite")
     print("python3 run.py test CodeGenSuite")
 
 

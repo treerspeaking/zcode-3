@@ -1,0 +1,6 @@
+
+func f(number arr[10], number x)
+
+func f(number a[5], number n)
+    return   
+        

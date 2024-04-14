@@ -1,1 +1,9 @@
-number a
+var a <- 50
+                bool b[4] <- [true,false,true,false]
+                func main()
+                begin 
+                    number e <- (a + a) * 100 + - 2.5e-3
+                    string f 
+                    bool d <- b[6] and b[3]
+                end
+        
