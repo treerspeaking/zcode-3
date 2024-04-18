@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-// int somefunc(int a, int a){
-//     return a;
-// }
+int somefunc(int a){
+    int a ;
+    return a;
+}
 
 
 int main(){

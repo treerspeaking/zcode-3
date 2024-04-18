@@ -1,0 +1,1 @@
+Type Mismatch In Expression: BinaryOp(>, ArrayCell(Id(a), [Id(i)]), ArrayCell(Id(a), [Id(j)]))

@@ -1,0 +1,1 @@
+Type Mismatch In Expression: ArrayLit(Id(a), Id(b), ArrayLit(Id(c), NumLit(0.0)))

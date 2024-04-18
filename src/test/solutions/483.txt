@@ -1,1 +1,1 @@
-Redeclared Variable: a
+Type Mismatch In Expression: ArrayLit(Id(a), ArrayLit(NumLit(10.0), NumLit(20.0), NumLit(30.0)))

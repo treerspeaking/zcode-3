@@ -150,8 +150,13 @@ class TestChecker:
         line = dest.read()
         # if "Redeclared" in expect or expect == "" or "Redeclared" in line:
         #     print("line = ",line, "expect = ", expect, "at test", num, "result = ", line == expect)
-        if "Undeclared" in expect or "Undeclared" in line:
-            print("line = ",line, "expect = ", expect, "at test", num, "result = ", line == expect)
+        # if "Undeclared" in expect or "Undeclared" in line:
+        #     print("line = ",line, "expect = ", expect, "at test", num, "result = ", line == expect)
+        if "Type Mismatch In Expression" in expect or "Type Mismatch In Expression" in line:
+            print("line = ", line, "expect = ", expect, "at test",
+                  num, "result = ", line == expect)
+        # print("line = ", line, "expect = ", expect, "at test",
+        #           num, "result = ", line == expect)
         return line == expect
 
     @staticmethod
