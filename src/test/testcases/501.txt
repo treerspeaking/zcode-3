@@ -1,0 +1,6 @@
+
+            dynamic a <- a[0,1,2]
+            
+            func main()
+                return
+        

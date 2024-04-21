@@ -1,12 +1,13 @@
 
-func add(number x, number y)
-
-func main()
-begin
-    number x <- readNumber()
-    number y <- readNumber()
-    dynamic a <- add(x, y) + 1
-end
-
-func add(number x, number y)
-    return "Hello"
+                dynamic a
+                dynamic b
+                dynamic c
+                dynamic d
+                dynamic e
+                dynamic f
+                dynamic g
+                dynamic h
+                func main() begin
+                    number x[2, 2, 2] <- [[[a, b], [c, d]], [[e, f], [g, h]]]
+                end
+            

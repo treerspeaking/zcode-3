@@ -1,14 +1,10 @@
 
-func add(number x, number y)
-
-func main()
-begin
-    number x <- readNumber()
-    number y <- readNumber()
-    writeNumber(pow(x, y))
-end
-
-func add(number a, number b)
-begin
-    return a + b
-end
+        func main () begin
+        var i <- 2
+        dynamic x
+        for i until x by 1
+        begin
+            if (x % i = 0) return false
+        end
+        end
+        

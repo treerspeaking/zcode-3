@@ -1,4 +1,4 @@
-# Generated from /Users/leviettung/Library/CloudStorage/OneDrive-Personal/source/python/zcode-3/src/main/zcode/parser/ZCode.g4 by ANTLR 4.13.1
+# Generated from c:/Users/levie/OneDrive/source/python/zcode-3/src/main/zcode/parser/ZCode.g4 by ANTLR 4.13.1
 # encoding: utf-8
 from antlr4 import *
 from io import StringIO

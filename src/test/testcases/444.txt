@@ -1,7 +1,6 @@
 
-func f()
-
-number f
-dynamic x
-func main()
-    return
+        func main()
+        begin
+            var c <- c
+        end
+        

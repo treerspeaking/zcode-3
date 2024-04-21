@@ -1,8 +1,16 @@
-
-func main()
-begin
-    dynamic x <- readBool()
-    dynamic y <- not readBool()
-    if (x and y) writeNumber(1)
-    else writeNumber(0)
-end
+func fibonacci(number x) begin
+        var i <- 0
+        number a <- 0
+        number b <- 1
+        for i until i = a by 1 begin
+            var c <- a + b
+            a <- b
+            b <- c
+        end
+        return a
+        end 
+        func main() begin
+        number a <- readNumber()
+        var b <- writeNumber(fibonacci(a))
+        end
+        

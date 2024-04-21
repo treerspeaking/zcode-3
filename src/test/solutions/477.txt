@@ -1,1 +1,1 @@
-Type Mismatch In Expression: ArrayLit(Id(x), Id(y))
+Type Cannot Be Inferred: Return(Id(a))

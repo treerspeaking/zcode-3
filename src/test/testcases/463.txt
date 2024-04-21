@@ -1,7 +1,6 @@
 
-number x <- 10
-func f(number x)
-begin
-    number x <- x + 20
-    writeNumber(x)
-end
+        func main()
+        begin
+            number a[1,2] <- [1,2,3]
+        end
+        

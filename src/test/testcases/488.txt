@@ -1,8 +1,9 @@
 
-func main()
-begin
-    number x
-    begin
-        number x <- (10 + x) * 2
-    end
-end
+        dynamic a
+        number b <- a[0]
+        string c <- a[1]
+        func main()
+        begin
+            a <- [1,2,3]
+        end
+        

@@ -1,5 +1,7 @@
 
-func main()
-begin
-    number arr[2, 2] <- [1, 2, 3, 4]
-end
+        dynamic a
+        number b[2] <- [a, 1]
+        func main() begin
+            a <- "hello"
+        end
+        

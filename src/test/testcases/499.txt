@@ -1,11 +1,11 @@
 
-func main()
-begin
-    dynamic a
-    dynamic b
-    dynamic c
-    dynamic d
-    dynamic x <- [a, [b, c], [d + 20, d ... "Hello"]]
-    d <- x[0, 0] + x[0, 1]
-    writeNumber(a[0] + a[1] + b + c + d)
-end
+        dynamic a
+        dynamic b
+        dynamic c
+        number x[3,3] <- [a,b,c]
+        func main() begin
+            a <- [1,2,3]
+            b <- [2,4,6]
+            c <- [3,5]
+        end
+        

@@ -1,0 +1,19 @@
+
+            func f()
+                return [[1,2],[3,4]]
+            func g()
+            func h() ## h is ArrayType([2.0, 2.0, 2.0], NumberType)
+                return [g(),f()]
+            func g() ## g is ArrayType([2.0, 2.0], NumberType)
+                return h()[1]
+    
+            func main()
+            begin
+                number a <- f()[1,2]
+                var b <- f()[1]
+                var c <- g()
+                var d <- h()
+                c <- h()[1]
+            end
+
+        

@@ -1,0 +1,14 @@
+
+            func a(number a)
+            begin
+                dynamic a <- a
+                return a
+            end
+
+            func main()
+            begin
+                dynamic b
+                b <- a(b)
+
+            end
+        

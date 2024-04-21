@@ -1,1 +1,1 @@
-Type Mismatch In Expression: BinaryOp(+, Id(x), BooleanLit(True))
+Type Mismatch In Statement: VarDecl(Id(b), ArrayType([5.0], NumberType), None, Id(a))

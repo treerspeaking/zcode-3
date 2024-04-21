@@ -1,6 +1,6 @@
-
-func f()
-begin
-    dynamic x
-    x <- (x - 2) * (x + true)
-end
+func inc (number x)
+        func main() begin
+        var a <- inc(2) ... "abc"
+        end
+        func inc (number y) return y + 1
+        

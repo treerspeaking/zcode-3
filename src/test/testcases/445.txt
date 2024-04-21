@@ -1,9 +1,28 @@
 
-func f()
-begin
-
-end
-dynamic a
-number b
-bool c
-string d
+            func foo()
+            begin
+                number a <- 10
+                for a until a > 10 by 1
+                begin
+                    number b <- 20
+                end
+                
+                if (a = 1)
+                begin
+                    number c <- 30
+                    return true
+                end
+                elif (a > 1)
+                    number e <- 20
+                else
+                begin
+                    number d <- 40
+                    return 1
+                end
+            end
+            
+            func main()
+            begin
+                bool a <- foo()
+            end
+        

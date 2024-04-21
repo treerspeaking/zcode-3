@@ -5,7 +5,7 @@
             "name": "Python Debugger: Current File with Arguments",
             "type": "debugpy",
             "request": "launch",
-            "cwd": "/Users/leviettung/Library/CloudStorage/OneDrive-Personal/source/python/zcode-3/src",
+            "cwd": "C:\\Users\\levie\\OneDrive\\source\\python\\zcode-3\\src",
             "program": "./run.py",
             "console": "integratedTerminal",
             "args": ["test", "CheckSuite"]

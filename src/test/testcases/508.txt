@@ -1,0 +1,12 @@
+
+            func a()
+                return true
+            
+            func main()
+            begin
+                dynamic b <- a()
+                dynamic c <- b()
+            end
+
+                
+        

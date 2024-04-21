@@ -1,11 +1,10 @@
 
-number a
-bool b
-string c
-dynamic d
-func main()
-begin
-    if (b) d <- 1 + a
-    else d <- a - 1.75
-    c <- "Hello, world!"
-end
+            func foo(string a, bool b) return [[1, 2], [1, 2]]
+            func main() begin
+                dynamic a
+                dynamic b   
+                number x <- 1 + foo(a, b)[1, 2]
+                a <- "hello"
+                b <- not (a == "hi")
+            end
+        

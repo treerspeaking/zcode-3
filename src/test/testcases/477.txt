@@ -1,10 +1,11 @@
 
-func main()
-begin
-    dynamic x
-    dynamic y
-    number a[2, 3] <- [x, y]
-    x <- [10, 20, 40]
-    y <- [true, false, true]
-    writeNumber(a[0, 0])
-end
+            func foo(number a, string b)
+            begin
+                dynamic a
+                return a
+
+                return b
+            end
+
+            func main() return
+        

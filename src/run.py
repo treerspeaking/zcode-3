@@ -70,8 +70,8 @@ def main(argv):
             from ASTGenSuite import ASTGenSuite
             getAndTest(ASTGenSuite)
         elif argv[1] == 'CheckSuite':
-            from CheckSuite import CheckerSuite
-            getAndTest(CheckerSuite)
+            from CheckSuite import CheckSuite
+            getAndTest(CheckSuite)
         elif argv[1] == 'CodeGenSuite':
             from CodeGenSuite import CheckCodeGenSuite
             getAndTest(CheckCodeGenSuite)

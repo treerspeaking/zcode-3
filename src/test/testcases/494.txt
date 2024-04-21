@@ -1,8 +1,12 @@
 
-func main()
-begin
-    dynamic a
-    dynamic b
-    dynamic c
-    dynamic x <- [a, b, c]
-end
+        func foo(number a, number b)
+
+        func main()
+        begin
+            return 1 + foo(1, 2)
+        end
+        func foo(number a, number b)
+        begin
+            return "hello"
+        end
+        

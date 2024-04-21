@@ -1,8 +1,4 @@
-
-dynamic x <- f(2)
-func f(number x)
-
-func main()
-begin
-
-end
+string a <- "x" ... 8
+        func main () begin
+        end
+        

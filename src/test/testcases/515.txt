@@ -1,0 +1,18 @@
+
+            func f()
+            func f2()
+            func main()
+            begin
+                number a <- f()
+                number b[2] <- f2() 
+                b <- [f(), f2()[0]]
+                
+            end
+
+            func f()
+                return f2()[0]
+
+            func f2()
+                return [f(),f()]            
+
+        

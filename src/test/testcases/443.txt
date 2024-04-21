@@ -1,7 +1,9 @@
 
-number x
-number y
-func f()
-
-func main()
-    return
+        func foo() begin
+        number x
+        end
+        func main()
+        begin
+            number num <- foo()
+        end
+        

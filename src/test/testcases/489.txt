@@ -1,10 +1,8 @@
 
-func test(number x)
-
-func main()
-begin
-    number test
-    begin
-        number x <- test(2018) + 1
-    end
-end
+        func foo(number a)
+        func foo(string a) begin
+        end
+        func main()
+        begin
+        end
+        

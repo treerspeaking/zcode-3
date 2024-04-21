@@ -1,6 +1,9 @@
-
-func main()
-begin
-    var x <- [[[[1, 2]], [3, 4, 5]], [[6, 7, 8], [9, 10, 11]]]
-    writeNumber(x)
-end
+func lessThan (number a, number b) begin
+        var c <- a < b
+        return c
+        end
+        func main () begin
+        string a
+        var c <- lessThan(a, 2)
+        end
+        

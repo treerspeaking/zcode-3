@@ -1,0 +1,10 @@
+
+            func a()
+            begin
+                number a <- a()
+            end
+            func main()
+            begin
+                dynamic a <- a()
+            end
+            

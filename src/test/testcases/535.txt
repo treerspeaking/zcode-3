@@ -1,0 +1,13 @@
+
+        func a(number b)
+        
+        func main()
+        begin
+            number b <- a(10) + 1
+        end
+        
+        func a(number b)
+        begin
+            return "Hello World"
+        end
+        

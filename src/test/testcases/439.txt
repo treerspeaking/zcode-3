@@ -1,5 +1,6 @@
 
-func f(number x)
-begin
-    dynamic x <- (x - 2) * (x + true)
-end
+        func main() begin
+        dynamic a <- [1,2,3]
+        number b[5] <- a
+        end
+        

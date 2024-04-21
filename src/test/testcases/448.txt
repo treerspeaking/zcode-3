@@ -1,5 +1,7 @@
 
-func main()
-begin
-    continue
-end
+        string a[3]
+        func main()
+        begin
+            a <- [1,2,3]
+        end
+        

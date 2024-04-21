@@ -1,0 +1,10 @@
+
+            func readNumber()
+            begin
+                return 1
+            end
+            func main()
+            begin
+                readNumber()
+            end
+            

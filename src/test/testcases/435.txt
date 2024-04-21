@@ -1,11 +1,9 @@
-
-func main()
-begin
-    dynamic a
-    dynamic b
-    dynamic c
-    dynamic x <- [readNumber(), a, b, c]
-    a <- 3
-    b <- x[0]
-    c <- a + b
-end
+func areDivisors(number num1, number num2) return 
+        func main()
+        begin
+        var num1 <- readNumber()
+        var num2 <- readNumber()
+        if (areDivisors(num1, num2)) writeString("Yes")
+        else writeString("No")
+        end
+        

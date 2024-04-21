@@ -1,9 +1,8 @@
-
-dynamic x
-func f(number x)
-    return x + 1
-
-func main()
-begin
-    x <- f(20, 30, 40) + 1
-end
+func foo()
+        func foo()
+        func foo() begin
+        end
+        func main()
+        begin
+        end
+        

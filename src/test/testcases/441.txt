@@ -1,4 +1,6 @@
-
-number a <- 1 + "Hello"
-func main()
-    return
+func inc (number x) return 0
+        number inc
+        func main() begin
+        var a <- inc(2) ... "abc"
+        end
+        

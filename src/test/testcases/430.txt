@@ -1,16 +1,10 @@
 
-func main()
-begin
-    var i <- 0
-    for i until i < 0 by 1
-    begin
-        string x <- readString()
-        if (x == "Hello") 
+        func main () begin
+        var i <- 0
+        for i until i > 3 by 1
         begin
-            x <- x ... ", world!"
-            writeString(x)
+            var a <- 5
         end
-        else writeString("Try again")
-    end
-    break
-end
+        a <- a + 8
+        end
+        

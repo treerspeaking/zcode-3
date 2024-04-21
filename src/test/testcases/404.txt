@@ -1,8 +1,5 @@
-
-dynamic x
-func main()
-begin
-    var y <- x[0, 0] + 1
-    writeNumber(y)
-end
-
+number a
+        var a <- 0
+        func main() begin
+        end
+        

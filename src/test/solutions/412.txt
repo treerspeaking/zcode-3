@@ -1,1 +1,1 @@
-Undeclared Identifier: j
+Type Mismatch In Statement: VarDecl(Id(b), NumberType, None, Id(a))

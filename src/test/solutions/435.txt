@@ -1,1 +1,1 @@
-Type Mismatch In Expression: ArrayLit(CallExpr(Id(readNumber), []), Id(a), Id(b), Id(c))
+Type Mismatch In Expression: CallExpr(Id(areDivisors), [Id(num1), Id(num2)])

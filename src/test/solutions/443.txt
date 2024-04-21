@@ -1,1 +1,1 @@
-No Function Definition: f
+Type Mismatch In Expression: CallExpr(Id(foo), [])

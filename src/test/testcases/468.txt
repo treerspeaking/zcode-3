@@ -1,6 +1,7 @@
 
-dynamic a
-func main()
-begin
-    var i <- a ... 2.75
-end
+            func main() begin
+                dynamic a
+                dynamic b
+                number x[2, 1] <- [a, [b]]
+            end
+        

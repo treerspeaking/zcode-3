@@ -1,0 +1,7 @@
+
+            func main() 
+            begin
+                dynamic x
+                return [x, [x, x]]
+            end
+        

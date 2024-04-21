@@ -1,0 +1,11 @@
+
+            func foo()
+
+            func main()
+            begin
+                return foo()
+            end
+
+            func foo()
+                return 1
+        

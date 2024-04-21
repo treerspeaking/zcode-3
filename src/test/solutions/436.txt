@@ -1,1 +1,1 @@
-Type Mismatch In Expression: UnaryOp(not, CallExpr(Id(readBool), []))
+Type Mismatch In Expression: CallExpr(Id(writeNumber), [CallExpr(Id(fibonacci), [Id(a)])])

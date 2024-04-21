@@ -1,9 +1,8 @@
 
-func main()
-begin
-    dynamic a
-    dynamic b
-    dynamic c
-    var arr <- [[a], [b], [c], [1]]
-    arr <- [[1], [2], [3], [4]]
-end
+            func main() begin
+                number a[1,2]
+                dynamic b
+                var c <- a[b, 1]
+                b <- 1
+            end
+        

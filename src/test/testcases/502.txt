@@ -1,0 +1,7 @@
+
+            func a()
+            dynamic a <- a()
+
+            func main()
+                return
+        

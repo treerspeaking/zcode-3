@@ -1,9 +1,7 @@
 
-func main()
-begin
-    dynamic a
-    dynamic b
-    dynamic c
-    dynamic x
-    x <- [a, b, [c]]
-end
+        dynamic a
+        func main() begin
+            if (true) return 1
+            else return a
+        end
+        

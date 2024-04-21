@@ -1,9 +1,6 @@
 
-func main()
-begin
-    dynamic a
-    dynamic b
-    dynamic c
-    dynamic x <- (a ... b) ... c
-    writeString(x)
-end
+        dynamic a
+        func main() begin
+            if (true) return a
+        end
+        

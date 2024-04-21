@@ -1,1 +1,1 @@
-Type Mismatch In Expression: ArrayLit(Id(a), ArrayLit(Id(b)), ArrayLit(ArrayLit(Id(c))), ArrayLit(ArrayLit(ArrayLit(Id(d), Id(e)))))
+Type Mismatch In Statement: VarDecl(Id(y), ArrayType([2.0], StringType), None, ArrayLit(ArrayLit(Id(x)), Id(x)))

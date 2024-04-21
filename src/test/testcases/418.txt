@@ -1,6 +1,9 @@
-
-func main()
-begin
-    number x <- 2 + true
-    writeNumber(x)
-end
+func lessThan (number a, number b) begin
+        var c <- a < b
+        return c
+        end
+        func main () begin
+        string b <- lessThan(1, 2)
+        return
+        end
+        

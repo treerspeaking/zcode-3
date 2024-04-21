@@ -1,9 +1,7 @@
 
-dynamic a
-func main()
-begin
-    var x <- [a, [1, 2, 3]]
-    a <- [1, 9, 6]
-    x <- [[3, 9, 6], [1, 3, 2]]
-    writeNumber(x[0, 0])
-end
+            func main() begin
+                dynamic x
+                dynamic y
+                number a[2] <- [1, [x, y]] 
+            end
+        

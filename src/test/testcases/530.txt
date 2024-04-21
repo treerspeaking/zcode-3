@@ -1,0 +1,7 @@
+
+        func main()
+            begin
+                dynamic num
+                bool arr[2] <- [true, num and (num > num)]
+            end
+        

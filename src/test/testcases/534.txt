@@ -1,0 +1,11 @@
+
+        number foo <- 10
+        func foo()
+
+        func main(number b)
+        begin
+            return foo()
+        end
+
+        func foo()
+        

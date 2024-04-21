@@ -1,15 +1,7 @@
-
-func f()
-begin
-    var i <- 0
-    for i until i > 10 by 1
-    begin
-
-    end
-    continue
-end
-
-func main()
-begin
-    f()
-end
+func lessThan (number a, number b) begin
+        return a < b
+        end
+        bool b <- lessThan(1, "a")
+        func main () begin
+        end
+        

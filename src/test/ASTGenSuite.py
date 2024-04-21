@@ -15,24 +15,22 @@ class ASTGenSuite(unittest.TestCase):
     def testdeclare7(self):
         input = """
             func main()
-            func main()
             begin
-                number a 
-                a[1,2,3] <- (10 + 20)*30
+                number a[1,2,3] <- [[1,2,3],[4,5,6]]
             end
         """
         expect = """Program([FuncDecl(Id(main), [], None), FuncDecl(Id(main), [], Block([VarDecl(Id(a), NumberType, None, None), AssignStmt(ArrayCell(Id(a), [NumLit(1.0), NumLit(2.0), NumLit(3.0)]), BinaryOp(*, BinaryOp(+, NumLit(10.0), NumLit(20.0)), NumLit(30.0)))]))])"""
         self.assertTrue(TestAST.test(input,expect,307))
         
-    def testdeclare7(self):
-        input = """
-            func main()
-            begin
-                [1,2,3][1] <- (10 + 20)*30
-            end
-        """
-        expect = """Program([FuncDecl(Id(main), [], None), FuncDecl(Id(main), [], Block([VarDecl(Id(a), NumberType, None, None), AssignStmt(ArrayCell(Id(a), [NumLit(1.0), NumLit(2.0), NumLit(3.0)]), BinaryOp(*, BinaryOp(+, NumLit(10.0), NumLit(20.0)), NumLit(30.0)))]))])"""
-        self.assertTrue(TestAST.test(input,expect,306))
+    # def testdeclare7(self):
+    #     input = """
+    #         func main()
+    #         begin
+    #             [1,2,3][1] <- (10 + 20)*30
+    #         end
+    #     """
+    #     expect = """Program([FuncDecl(Id(main), [], None), FuncDecl(Id(main), [], Block([VarDecl(Id(a), NumberType, None, None), AssignStmt(ArrayCell(Id(a), [NumLit(1.0), NumLit(2.0), NumLit(3.0)]), BinaryOp(*, BinaryOp(+, NumLit(10.0), NumLit(20.0)), NumLit(30.0)))]))])"""
+    #     self.assertTrue(TestAST.test(input,expect,306))
     
     def test3(self):
         input = """

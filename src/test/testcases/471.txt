@@ -1,10 +1,8 @@
 
-func main()
+            func foo(string x) return ["hello", "hi"]
 
-func main()
-
-func main()
-begin
-    if (1) writeBool(true)
-    else writeBool(false)
-end
+            func main() begin
+                dynamic a
+                string b <- a ... foo(a)[1]
+            end
+        
